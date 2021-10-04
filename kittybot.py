@@ -8,7 +8,6 @@ from telegram.ext import Updater, CommandHandler
 
 load_dotenv()
 BOT_TOKEN = str(os.getenv('TOKEN'))
-print(BOT_TOKEN)
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
